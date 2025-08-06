@@ -1,0 +1,68 @@
+Phishing Email Analysis Report
+Email Details
+Message ID: IIapLBL.05868.931+=phishing@pot@firiri.shop
+
+Created At: 8/23/2023, 2:27:24 AM GMT+5:30 (Delivered after 41 minutes)
+
+From: Europa park V.3 (otto-newsletter@newsletter.otto.de)
+
+To: phishing@pot
+
+Subject: Nehmen Sie an der kurzen Umfrage für den Europa-Park teil und erhalten Sie vier kostenlose Eintrittskarten!
+
+Phishing Indicators Found
+1. Sender Information
+The “From” address does not match the organization name.
+
+Email used: otto-newsletter@newsletter.otto.de (appears official but is suspicious when combined with other indicators).
+
+2. Authentication Results
+SPF: Pass (but IP is unknown)
+
+DKIM: None
+
+DMARC: Fail
+
+3. Suspicious Links
+Image redirect link: https://granilee.com/100fbd3ab1503f31800/300
+
+The link returns a 200 OK status, meaning the website is active, but it shows no actual content.
+
+4. Urgent or Threatening Language
+Examples found in the email:
+
+“Final attempt”
+
+“Don’t respond today”
+
+“Cancel the shipment”
+
+5. Poor Grammar and Formatting
+Salutation: “Hello phishing@pot,” – very unprofessional and not standard for legitimate businesses.
+
+Awkward phrasing: “We’ve prepared for free shipping.”
+
+Threatening tone: “If you don’t respond today, we will cancel the shipment…”
+
+Unusual formatting: “>> Confirm Address <<<” – legitimate emails typically use proper buttons or links without these symbols.
+
+Summary of Risk
+This email is highly likely to be a phishing attempt because of:
+
+Domain spoofing
+
+Failed DMARC authentication
+
+Suspicious external link
+
+Use of urgent language
+
+Poor grammar and unprofessional formatting
+
+Recommendations
+Do not click on any links or download attachments from this email.
+
+Report the email to your security or IT team.
+
+Block the sender’s domain in your email system to prevent further attempts.
+
